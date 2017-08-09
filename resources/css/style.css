@@ -1,5 +1,5 @@
 html, body {
-	font-family: Helvetica, Arial;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
 
@@ -48,7 +48,7 @@ div.logo img {
 	position: relative;
 }
 
-/* style for nav section */
+/* styles for nav section */
 nav {
 	background-color: #cc3030;
 	width: 100%;
@@ -62,3 +62,49 @@ ul.nav-items {
 	justify-content: space-between;
 	padding: 0.75em 0.75em;
 }
+
+/* styles for product grid */
+div.products {
+	width: 960px;
+	display: flex;
+	justify-content: space-between;
+	margin: 3em 0 0 0;
+	color: white;
+}
+
+div.product-box {
+	display: block;
+	width: 30%;
+	background-color: black;
+	text-align: center;
+}
+
+div.img-box {
+	border: 4px solid black;
+	background-color: white;
+	padding: 2em 0;
+	height: 9em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.products img {
+	max-width: 8em;
+	border-style: none;
+}
+
+span.product-description {
+	display: block;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 0.5em;
+}
+
+/* styles for location and hours section */
+div.location_hours {
+	width: 960px;
+}
+
+/* styles for footer */
