@@ -1,6 +1,6 @@
 html, body {
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 h1 {
@@ -53,6 +53,10 @@ nav {
 	background-color: #cc3030;
 	width: 100%;
 	color: white;
+}
+
+.mobile-nav {
+	display: none;
 }
 
 ul.nav-items {
@@ -132,4 +136,92 @@ footer {
 
 div.footer-container {
 	max-width: 960px;
+}
+
+/* 1024 media query */
+@media only screen and (max-width: 1024px) {
+	body {
+		font-size: 16px;
+	}
+
+	ul.nav-items {
+		display: none;
+	}
+
+	ul.mobile-nav {
+		display: block;
+		text-align: center;
+	}
+
+	div.product-box.glasses {
+		display: none;
+	}
+
+	div.product-box {
+		width: 47%;
+	}
+
+	div.information {
+		width: 47%;
+	}
+}
+
+/* 470px media query */
+@media only screen and (min-width: 470px) {
+	h1 {
+		font-family: Helvetica;
+		font-size: 0.77em;
+		font-weight: bold;
+	}
+
+	h4 {
+		font-size: 1em;
+		font-weight: bold;
+	}
+
+	.text-box {
+		background-color: black;
+		color: white;
+		width: 100%;
+		padding: 1em 2em;
+		top: 10em;
+		position: relative;
+	}
+
+	ul.nav-items {
+		display: none;
+	}
+
+	ul.mobile-nav {
+		display: block;
+		text-align: center;
+		top: 15em;
+	}
+
+	div.product-box.glasses {
+		display: none;
+	}
+
+	div.product-box.watch {
+		display: none;
+	}
+
+	div.business-info {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	div.product-box {
+		width: 90%;
+	}
+
+	div.information {
+		width: 90%;
+		margin-bottom: 0.5em;
+	}
+
+	footer {
+		text-align: center;
+	}
 }
