@@ -1,0 +1,64 @@
+html, body {
+	font-family: Helvetica, Arial;
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h4 {
+	font-size: 1.25em;
+}
+/* styles for logo section */
+
+.container {
+	width: 100%;
+	padding: 12px 12px 0.5em;
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	background-color: black;
+	color: white;
+}
+
+div.logo img {
+	width: 5%;
+	padding-right: 0.5em;
+}
+
+/* styles for the banner section */
+
+.main-banner {
+	background-image: url("../img/moto.jpeg"); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 25em;
+}
+
+.text-box {
+	background-color: black;
+	color: white;
+	width: 20em;
+	padding: 2em 3em;
+	top: 10em;
+	position: relative;
+}
+
+/* style for nav section */
+nav {
+	background-color: #cc3030;
+	width: 100%;
+	color: white;
+}
+
+ul.nav-items {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.75em 0.75em;
+}
